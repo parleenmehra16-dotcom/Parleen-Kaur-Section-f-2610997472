@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Examination Result</title>
+</head>
+<body>
+
+<table border="2" cellpadding="10" cellspacing="2" width="80%">
+ <!-- Title Row using COLSPAN -->
+ <tr>
+  <th colspan="8" align="center">Student Examination Result</th>
+ </tr>
+
+ <!-- Second Header Row -->
+ <tr>
+  <th rowspan="2" align="center">S. No.</th>
+  <th rowspan="2" align="center">Student Name</th>
+  <th rowspan="2" align="center">Roll Number</th>
+  <th colspan="3" align="center">Subjects</th>
+  <th rowspan="2" align="center">Total</th>
+  <th rowspan="2" align="center">Result</th>
+ </tr>
+
+ <!-- Third Header Row - Subjects -->
+ <tr>
+  <th align="center">Science</th>
+  <th align="center">Maths</th>
+  <th align="center">English</th>
+ </tr>
+
+ <!-- Data Rows -->
+ <tr>
+  <td align="center">1</td>
+  <td>Aarav Sharma</td>
+  <td align="center">101</td>
+  <td align="center">85</td>
+  <td align="center">90</td>
+  <td align="center">78</td>
+  <td align="center">253</td>
+  <td align="center" class="pass">Pass</td>
+ </tr>
+ <tr>
+  <td align="center">2</td>
+  <td>Neha Gupta</td>
+  <td align="center">102</td>
+  <td align="center">92</td>
+  <td align="center">88</td>
+  <td align="center">95</td>
+  <td align="center">275</td>
+  <td align="center" class="pass">Pass</td>
+ </tr>
+ <tr>
+  <td align="center">3</td>
+  <td>Rohan Mehta</td>
+  <td align="center">103</td>
+  <td align="center">76</td>
+  <td align="center">82</td>
+  <td align="center">70</td>
+  <td align="center">228</td>
+  <td align="center" class="pass">Pass</td>
+ </tr>
+ <tr>
+  <td align="center">4</td>
+  <td>Sneha Verma</td>
+  <td align="center">104</td>
+  <td align="center">68</td>
+  <td align="center">74</td>
+  <td align="center">72</td>
+  <td align="center">214</td>
+  <td align="center" class="fail">Fail</td>
+ </tr>
+ <tr>
+  <td align="center">5</td>
+  <td>Karan Singh</td>
+  <td align="center">105</td>
+  <td align="center">88</td>
+  <td align="center">93</td>
+  <td align="center">85</td>
+  <td align="center">266</td>
+  <td align="center" class="pass">Pass</td>
+ </tr>
+
+ <!-- Class Average Row using COLSPAN -->
+ <tr class="avg">
+  <td colspan="3" align="center">Class Average</td>
+  <td align="center">81.8</td>
+  <td align="center">85.4</td>
+  <td align="center">80.8</td>
+  <td align="center">247.2</td>
+  <td align="center">-</td>
+ </tr>
+</table>
+
+</body>
+</html>

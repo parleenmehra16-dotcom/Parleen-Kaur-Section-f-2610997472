@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Map Explorer</title>
+</head>
+<body>
+
+<h1>World Map Explorer</h1>
+<p>Click on a country to open its information page.</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+     alt="World Map" width="1000" height="500" usemap="#worldmap">
+
+<map name="worldmap">
+
+  <!-- USA (circle: x, y, radius) -->
+  <area shape="circle" coords="210,160,50"
+        href="https://en.wikipedia.org/wiki/United_States"
+        alt="USA" title="USA" target="_blank">
+
+  <!-- India (rectangle: left, top, right, bottom) -->
+  <area shape="rect" coords="640,210,700,290"
+        href="https://en.wikipedia.org/wiki/India"
+        alt="India" title="India" target="_blank">
+
+  <!-- China (rectangle) -->
+  <area shape="rect" coords="700,150,800,230"
+        href="https://en.wikipedia.org/wiki/China"
+        alt="China" title="China" target="_blank">
+
+  <!-- Russia (polygon: x1,y1, x2,y2, ...) -->
+  <area shape="poly" coords="580,60,880,60,880,130,700,140,580,120"
+        href="https://en.wikipedia.org/wiki/Russia"
+        alt="Russia" title="Russia" target="_blank">
+
+  <!-- Australia (polygon) -->
+  <area shape="poly" coords="790,330,880,320,890,390,820,410,780,380"
+        href="https://en.wikipedia.org/wiki/Australia"
+        alt="Australia" title="Australia" target="_blank">
+
+</map>
+
+</body>
+</html>

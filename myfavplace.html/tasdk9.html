@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Restaurant Menu</title>
+<style>
+ body{font-family:Arial; background:#fffaf0;}
+ table{margin:30px auto; background:white; border-collapse:separate;}
+ th{background:#d6e4f0;}
+ caption{font-weight:bold; font-size:18px; padding:8px; background:#ffcc99;}
+ .starters{background:#ffe5cc;}
+ .main{background:#fff2cc;}
+ .desserts{background:#d9ead3;}
+ .drinks{background:#cfe2f3;}
+</style>
+</head>
+<body>
+
+<table border="2" cellpadding="10" cellspacing="2" width="60%">
+ <!-- CAPTION and COLSPAN -->
+ <caption>Today's Special Menu</caption>
+ 
+ <tr>
+  <th align="center">Category</th>
+  <th align="center">Food Item</th>
+  <th align="center">Price (₹)</th>
+ </tr>
+
+ <!-- Starters - ROWSPAN=3 -->
+ <tr class="starters">
+  <td rowspan="3" align="center"><b>Starters</b></td>
+  <td>Spring Rolls</td>
+  <td align="center">120</td>
+ </tr>
+ <tr class="starters">
+  <td>Garlic Bread</td>
+  <td align="center">100</td>
+ </tr>
+ <tr class="starters">
+  <td>Veg Soup</td>
+  <td align="center">80</td>
+ </tr>
+
+ <!-- Main Course - ROWSPAN=3 -->
+ <tr class="main">
+  <td rowspan="3" align="center"><b>Main Course</b></td>
+  <td>Paneer Butter Masala</td>
+  <td align="center">180</td>
+ </tr>
+ <tr class="main">
+  <td>Veg Biryani</td>
+  <td align="center">150</td>
+ </tr>
+ <tr class="main">
+  <td>Dal Tadka</td>
+  <td align="center">120</td>
+ </tr>
+
+ <!-- Desserts - ROWSPAN=3 -->
+ <tr class="desserts">
+  <td rowspan="3" align="center"><b>Desserts</b></td>
+  <td>Chocolate Cake</td>
+  <td align="center">90</td>
+ </tr>
+ <tr class="desserts">
+  <td>Ice Cream</td>
+  <td align="center">70</td>
+ </tr>
+ <tr class="desserts">
+  <td>Gulab Jamun</td>
+  <td align="center">60</td>
+ </tr>
+
+ <!-- Drinks - ROWSPAN=3 -->
+ <tr class="drinks">
+  <td rowspan="3" align="center"><b>Drinks</b></td>
+  <td>Fresh Lime Soda</td>
+  <td align="center">50</td>
+ </tr>
+ <tr class="drinks">
+  <td>Cold Coffee</td>
+  <td align="center">80</td>
+ </tr>
+ <tr class="drinks">
+  <td>Mango Shake</td>
+  <td align="center">70</td>
+ </tr>
+</table>
+
+</body>
+</html>

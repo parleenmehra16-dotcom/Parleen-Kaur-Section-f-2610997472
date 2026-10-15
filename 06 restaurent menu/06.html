@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Restaurant Menu</title>
+</head>
+<body>
+    <h1>Interactive Food Menu</h1>
+    <p>Click on different food items on the image to view details.</p>
+
+    <img src="food_platter.jpg" alt="Food Platter" usemap="#foodmap" width="800" height="600">
+
+    <map name="foodmap">
+        <area shape="circle" coords="150,150,50" href="pizza.html" alt="Pizza" target="_blank">
+        <area shape="circle" coords="300,150,40" href="burger.html" alt="Burger" target="_blank">
+        
+        <area shape="rect" coords="50,300,200,400" href="fries.html" alt="Fries" target="_blank">
+        <area shape="rect" coords="250,300,400,400" href="sandwich.html" alt="Sandwich" target="_blank">
+        
+        <area shape="poly" coords="500,100,550,50,600,100,570,180,520,180" href="samosa.html" alt="Samosa" target="_blank">
+        <area shape="poly" coords="650,100,700,60,750,120,710,190" href="pasta.html" alt="Pasta" target="_blank">
+        
+        <area shape="default" href="general_info.html" alt="General Menu Info">
+    </map>
+</body>
+</html>
